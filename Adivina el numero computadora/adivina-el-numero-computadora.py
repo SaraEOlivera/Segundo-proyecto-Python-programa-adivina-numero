@@ -1,12 +1,14 @@
 import random
 
+def subrayar_titulo(titulo, caracter = "="):
+    print(caracter * len(titulo))
+    print(titulo)
+    print(caracter * len(titulo))
+
 
 def programa_adivinador_de_numero(x):
 
-    print("******************************************")
-    print("¡Bienvenido al juego!")
-    print("******************************************")
-    print()
+
     print(f"Pensá un número entre 1 y {x} y el programa intentará adivinarlo.")
 
     valor_minimo = 1
@@ -30,6 +32,7 @@ def programa_adivinador_de_numero(x):
 
     print(f"¡¡Adiviné!! El numero que estabas pensando era {intento_computadora}")
 
+subrayar_titulo("¡¡Bienvenido al juego!!")
 programa_adivinador_de_numero(15)
 
 
