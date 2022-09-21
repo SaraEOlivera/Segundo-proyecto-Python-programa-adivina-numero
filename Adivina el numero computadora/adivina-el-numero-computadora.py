@@ -21,7 +21,7 @@ def programa_adivinador_de_numero(x):
 
         #responder si adivinó
         print()
-        mi_respuesta = input(f"El número que pensaste es {intento_computadora}. Si el número es muy alto, ingresá (A). Si es muy bajo, ingresá (B) y si adiviné ingresá (C): ").lower()
+        mi_respuesta = input(f"El número que pensaste es {intento_computadora}. Si mi predicción es mayor a tu numero, ingresá (A). Si es muy menor, ingresá (B) y si adiviné ingresá (C): ").lower()
 
         if mi_respuesta == "a":
             valor_maximo = intento_computadora - 1
